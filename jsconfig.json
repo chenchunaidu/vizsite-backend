@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es2015",
+      "baseUrl": ".",
+      "paths": {
+        "middleware": ["./middleware/*"]
+      },
+    },
+    "exclude": ["node_modules","**/node_modules/*"]
+  }
